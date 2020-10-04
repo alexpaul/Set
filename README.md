@@ -70,3 +70,8 @@ let evenNumbers: Set = [2, 4, 6, 8, 10, 12]
 let areAllEven = evenNumbers.allSatisfy { $0 % 2 == 0 }
 print(areAllEven) // true
 ```
+
+## Resources 
+
+1. [Apple documentation - Set](https://developer.apple.com/documentation/foundation/set)
+2. [Apple documentation - NSOrderedSet](https://developer.apple.com/documentation/foundation/nsorderedset)
