@@ -90,6 +90,12 @@ print(mutableOrderedSet)
 mutableOrderedSet[mutableOrderedSet.count - 1] // 5,  [1, 2, 3, 4, 5]
 ```
 
+## Challenges 
+
+#### Challenge 1 - Design HashSet
+
+[LeetCode](https://leetcode.com/problems/design-hashset/)
+
 ## Resources 
 
 1. [Apple documentation - Set](https://developer.apple.com/documentation/swift/set)
