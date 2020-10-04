@@ -71,6 +71,25 @@ let areAllEven = evenNumbers.allSatisfy { $0 % 2 == 0 }
 print(areAllEven) // true
 ```
 
+## `NSOrderedSet` and `NSMutableOrderedSet`
+
+```swift 
+let dupes = [1,1,1,2,2,3,3,3,3,4] // array containing duplicates
+
+var unique = NSOrderedSet(array: dupes) // creating a NSOrderedSet from an Array, it will be unique and keep the order of the elements
+
+print(unique) // [1, 2, 3, 4]
+
+// we cannot modify an NSOrderedSet
+// however we an use its counterpart NSMutableOrderedSet
+
+let mutableOrderedSet = NSMutableOrderedSet(array: dupes)
+mutableOrderedSet.add(5) 
+print(mutableOrderedSet)
+
+mutableOrderedSet[mutableOrderedSet.count - 1] // 5,  [1, 2, 3, 4, 5]
+```
+
 ## Resources 
 
 1. [Apple documentation - Set](https://developer.apple.com/documentation/swift/set)
