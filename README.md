@@ -73,5 +73,5 @@ print(areAllEven) // true
 
 ## Resources 
 
-1. [Apple documentation - Set](https://developer.apple.com/documentation/foundation/set)
+1. [Apple documentation - Set](https://developer.apple.com/documentation/swift/set)
 2. [Apple documentation - NSOrderedSet](https://developer.apple.com/documentation/foundation/nsorderedset)
