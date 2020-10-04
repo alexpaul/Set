@@ -92,9 +92,19 @@ mutableOrderedSet[mutableOrderedSet.count - 1] // 5,  [1, 2, 3, 4, 5]
 
 ## Challenges 
 
-#### Challenge 1 - Design HashSet
+#### Challenge 1 - Destination City
+
+[LeetCode](https://leetcode.com/problems/destination-city/)
+
+#### Challenge 2 - Design HashSet
 
 [LeetCode](https://leetcode.com/problems/design-hashset/)
+
+#### Challenge 3 - Pangram 
+
+[HackerRank](https://www.hackerrank.com/challenges/pangrams/problem)
+
+
 
 ## Resources 
 
