@@ -94,3 +94,4 @@ mutableOrderedSet[mutableOrderedSet.count - 1] // 5,  [1, 2, 3, 4, 5]
 
 1. [Apple documentation - Set](https://developer.apple.com/documentation/swift/set)
 2. [Apple documentation - NSOrderedSet](https://developer.apple.com/documentation/foundation/nsorderedset)
+3. [Apple documentation - NSMutableOrderedSet](https://developer.apple.com/documentation/foundation/nsmutableorderedset)
