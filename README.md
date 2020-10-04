@@ -104,6 +104,9 @@ mutableOrderedSet[mutableOrderedSet.count - 1] // 5,  [1, 2, 3, 4, 5]
 
 [HackerRank](https://www.hackerrank.com/challenges/pangrams/problem)
 
+#### Challenge 4 - First unique Character in a String
+
+[LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/)
 
 
 ## Resources 
