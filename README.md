@@ -92,19 +92,23 @@ mutableOrderedSet[mutableOrderedSet.count - 1] // 5,  [1, 2, 3, 4, 5]
 
 ## Challenges 
 
-#### Challenge 1 - Destination City
+#### Challenge 1 - Unique number of occurences
+
+[LeetCode](https://leetcode.com/problems/unique-number-of-occurrences/)
+
+#### Challenge 2 - Destination City
 
 [LeetCode](https://leetcode.com/problems/destination-city/)
 
-#### Challenge 2 - Design HashSet
+#### Challenge 3 - Design HashSet
 
 [LeetCode](https://leetcode.com/problems/design-hashset/)
 
-#### Challenge 3 - Pangram 
+#### Challenge 4 - Pangram 
 
 [HackerRank](https://www.hackerrank.com/challenges/pangrams/problem)
 
-#### Challenge 4 - First unique Character in a String
+#### Challenge 5 - First unique Character in a String
 
 [LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/)
 
