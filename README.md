@@ -54,3 +54,19 @@ let yourGenres: Set = ["Hip Hop", "Reggae", "Folk", "Jazz", "Blues", "Hi-Life", 
 let genresWeCanTeachEachOther: Set<String> = myGenres.symmetricDifference(yourGenres)
 print(genresWeCanTeachEachOther)
 ```
+
+## Comparing Sets
+
+#### 
+
+## Finding Elements 
+
+#### `contains()`
+
+#### `allSatisfy(Element -> Bool)`
+
+```swift 
+let evenNumbers: Set = [2, 4, 6, 8, 10, 12]
+let areAllEven = evenNumbers.allSatisfy { $0 % 2 == 0 }
+print(areAllEven) // true
+```
