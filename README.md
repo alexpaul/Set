@@ -116,6 +116,10 @@ mutableOrderedSet[mutableOrderedSet.count - 1] // 5,  [1, 2, 3, 4, 5]
 
 [LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/)
 
+#### Challenge 7 - Unique email addresses
+
+[LeetCode](https://leetcode.com/problems/unique-email-addresses/)
+
 
 ## Resources 
 
