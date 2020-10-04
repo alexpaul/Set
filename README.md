@@ -7,6 +7,8 @@ var babyName: Set<String> = ["Kim", "Hua", "Bertie", "Esther"]
 var cohorts: Set = [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0]
 ```
 
+## Combining Sets
+
 #### `update(with:_)`
 
 ```swift 
