@@ -86,20 +86,28 @@ print(areAllEven) // true
 If you wish to add or modity the items of an ordered set you can use its counterpart, `NSMutableOrderedSet`. 
 
 ```swift 
-let dupes = [1,1,1,2,2,3,3,3,3,4] // array containing duplicates
+let dupes = [1,1,1,2,2,3,3,3,3,4,9,9]
 
-var unique = NSOrderedSet(array: dupes) // creating a NSOrderedSet from an Array, it will be unique and keep the order of the elements
+let regularSet = Set(dupes)
 
-print(unique) // [1, 2, 3, 4]
+print(regularSet) // [1, 3, 2, 4]
 
-// we cannot modify an NSOrderedSet
-// however we an use its counterpart NSMutableOrderedSet
+let orderedSet = NSOrderedSet(array: dupes)
+print(orderedSet)
 
-let mutableOrderedSet = NSMutableOrderedSet(array: dupes)
-mutableOrderedSet.add(5) 
+print("last value of ordered set is \(orderedSet[orderedSet.count - 1])") // output 4
+
+// we cannot add to a NSOrderedSet b/c it's immutable
+
+// in order to add to an ordered set we need to use NSMutableOrderedSet
+
+var mutableOrderedSet = NSMutableOrderedSet(array: dupes) // NS => Next Step => Jobs started NS, macOS
+
+mutableOrderedSet.add(10)
+
+mutableOrderedSet.insert(11, at: 3)
+
 print(mutableOrderedSet)
-
-mutableOrderedSet[mutableOrderedSet.count - 1] // 5,  [1, 2, 3, 4, 5]
 ```
 
 ## Challenges 
