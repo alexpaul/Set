@@ -57,11 +57,24 @@ print(genresWeCanTeachEachOther)
 
 ## Comparing Sets
 
-#### 
+* isSubset 
+* isStrictSubset 
+* isSuperset 
+* isStrictSuperset 
+* isDisjoint
 
 ## Finding Elements 
 
 #### `contains()`
+
+> Reminder `contains` on a Set is much faster than on an array. On a Set the runtime is O(1) and on a array the runtime is O(n). This is all because the values in a Set is Hashable so lookup is constant. 
+
+```swift 
+let jobApplied: Set = ["Pandora", "Zoc Doc", "Bloomberg", "Instagram", "CNBC", "Goolge"]
+if !jobApplied.contains("Apple") {
+  print("Don't hesistate to apply, having a BS in Computer Science is not a requirement.")
+}
+```
 
 #### `allSatisfy(Element -> Bool)`
 
