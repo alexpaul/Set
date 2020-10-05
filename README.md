@@ -29,11 +29,6 @@ let languagesInCommon = employeeOneProficientLanguages.intersection(employeeTwoP
 print(languagesInCommon) // ["C", "Python", "JavaScript"]
 ```
 
-#### Union 
-
-```swift 
-```
-
 #### `subtracting()`
 
 ```swift 
@@ -85,6 +80,10 @@ print(areAllEven) // true
 ```
 
 ## `NSOrderedSet` and `NSMutableOrderedSet`
+
+`NSOrderedSet` is an Objective-C API and allows for maintaining the order of a Set. `NSOrderedSet` is immutable and items cannot be added to it.   
+
+If you wish to add or modity the items of an ordered set you can use its counterpart, `NSMutableOrderedSet`. 
 
 ```swift 
 let dupes = [1,1,1,2,2,3,3,3,3,4] // array containing duplicates
